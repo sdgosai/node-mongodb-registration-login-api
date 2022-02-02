@@ -1,0 +1,26 @@
+{
+  "name": "user_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "user_form/app.js",
+    "dev": "nodemon user_form/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.15",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
